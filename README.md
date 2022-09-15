@@ -26,4 +26,4 @@ Then, we developed the ```extract_ieee_taxonomy-rdf.ipynb``` that reads the txt 
 
 ## Developers
 
-This work has been developed by Tanay Aggarwal (Maharaja Surajmal Institute of Technology) and Angelo Salatino (KMi, The Open University).
+This work has been developed by Tanay Aggarwal (MSIT, Guru Gobind Singh Indraprastha University) and Angelo Salatino (KMi, The Open University).
