@@ -2122,7 +2122,7 @@ Electronic design automation and methodology
 ........Time to market
 ........User centered design
 ........Virtual prototyping
-Engineering – general
+Engineering - general
 ....Acoustical engineering
 ....Agricultural engineering
 ....Bio-inspired engineering
@@ -5974,7 +5974,7 @@ Robotics and automation
 ............Teleoperators
 ........Visual odometry
 ........Wearable robots
-Science – general
+Science - general
 ....Astronomy
 ........Astrophysics
 ............Dark matter
