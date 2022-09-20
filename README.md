@@ -24,6 +24,9 @@ First, we manually extracted the list of topics and their hierarchy from the pdf
 
 Then, we developed the ```extract_ieee_taxonomy-rdf.ipynb``` that reads the txt file and creates the serialised RDF versions.
 
+## Future Work
+Identify similar concepts (```owl:sameAs```) in DBpedia and Wikidata, as well as other Scholarly Domain ontologies available in the state of the art.
+
 ## Developers
 
 This work has been developed by Tanay Aggarwal (MSIT, Guru Gobind Singh Indraprastha University) and Angelo Salatino (KMi, The Open University).
