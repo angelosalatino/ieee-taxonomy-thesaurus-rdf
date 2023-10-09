@@ -29,5 +29,5 @@ Identify similar concepts (```owl:sameAs```) in DBpedia and Wikidata, as well as
 
 ## Developers
 
-This work has been developed by Tanay Aggarwal^1 and Angelo Salatino^1.
-KMi, The Open University^1
+This work has been developed by Tanay Aggarwal (KMi, The Open University) and Angelo Salatino (KMi, The Open University).
+
