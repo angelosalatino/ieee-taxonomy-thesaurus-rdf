@@ -30,4 +30,5 @@ Identify similar concepts (```owl:sameAs```) in DBpedia and Wikidata, as well as
 ## Developers
 
 This work has been developed by Tanay Aggarwal<sup>1</sup> and Angelo Salatino<sup>1</sup>.
+<br>
 KMi, The Open University<sup>1</sup>
