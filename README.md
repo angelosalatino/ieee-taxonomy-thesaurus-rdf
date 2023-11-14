@@ -26,9 +26,3 @@ Then, we developed the ```extract_ieee_taxonomy-rdf.ipynb``` that reads the clea
 
 ## Future Work
 Identify similar concepts (```owl:sameAs```) in DBpedia and Wikidata, as well as other Scholarly Domain ontologies available in the state of the art.
-
-## Developers
-
-This work has been developed by Tanay Aggarwal<sup>1</sup> and Angelo Salatino<sup>1</sup>.
-<br>
-KMi, The Open University<sup>1</sup>
