@@ -1,4 +1,4 @@
-# IEEE Taxonomy RDF
+# IEEE Taxonomy-Thesaurus RDF
 
 In this GitHub repo, you will find the rdf version of the IEEE Taxonomy and the Python code we have developed to convert it.
 
