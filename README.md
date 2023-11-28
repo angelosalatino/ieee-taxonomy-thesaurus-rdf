@@ -25,7 +25,7 @@ First, we extracted the list of topics and their hierarchy from the PDF file, cl
 Then, we developed the ```extract_ieee_thesaurus-rdf.ipynb``` that reads the IEEE Thesaurus CSV file and creates the serialized RDF versions.
 
 ## Note
-We analyzed that ```concepts``` in the IEEE Taxonomy are a subset of ```concepts``` in the IEEE Thesaurus and We decided to remove the IEEE Taxonomy from the repository. But, the PDF files of IEEE Taxonomy are still available in the repository (2021 onwards).
+We analyzed that ```concepts``` in the IEEE Taxonomy are a subset of ```concepts``` in the IEEE Thesaurus and We decided to remove the IEEE Taxonomy from the repository. But, the PDF files of IEEE Taxonomy are still available in the repository (2022 onwards).
 
 ## Extraction of IEEE Taxonomy RDF file
 
