@@ -45,6 +45,6 @@ In order to generate the RDF file of IEEE Taxonomy using this code you can just 
 This work has been developed by Alessia Pisu<sup>1</sup>, Tanay Aggarwal<sup>2</sup>, and Angelo Salatino<sup>2</sup>
 <br>
 <br>
-University of Cagliari (UNICA)<sup>1</sup> 
+University of Cagliari<sup>1</sup> 
 <br>
 The Open University<sup>2</sup>
