@@ -31,7 +31,7 @@ We analyzed that ```concepts``` in the IEEE Taxonomy are a subset of ```concepts
 
 The ```Creating RDF``` section of the ```extract_ieee_thesaurus-rdf.ipynb``` holds the following predicates along with their ```SKOS``` notations:
 
-| Predeicate  | SKOS Notation |
+| Predicate   | SKOS Notation |
 | ----------- | -----------   |
 | BT          | broader       |
 | NT          | narrower      |
