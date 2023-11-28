@@ -40,3 +40,11 @@ The ```Creating RDF``` section of the ```extract_ieee_thesaurus-rdf.ipynb``` hol
 | UF          | altLabel      |
 
 In order to generate the RDF file of IEEE Taxonomy using this code you can just eliminate the predicates ```RT```, ```USE```, ```UF``` because IEEE Taxonomy only holds ```broader``` and ```narrower``` relations.
+
+## Developers
+This work has been developed by Alessia Pisu<sup>1</sup>, Tanay Aggarwal<sup>2</sup>, and Angelo Salatino<sup>2</sup>
+<br>
+<br>
+University of Cagliari (UNICA)<sup>1</sup> 
+<br>
+The Open University<sup>2</sup>
