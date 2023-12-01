@@ -279,14 +279,6 @@ ieee:admittance_measurement a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "admittance measurement" ;
     skos:broader ieee:electric_variables_measurement .
 
-ieee:advanced_driver__assistance_systems a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "advanced driver  assistance systems" ;
-    skos:broader ieee:traffic_control .
-
-ieee:advanced_driver_assistance_systems a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "advanced driver assistance systems" ;
-    skos:broader ieee:vehicle_safety .
-
 ieee:adversarial_machine_learning a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "adversarial machine learning" ;
     skos:broader ieee:machine_learning .
@@ -851,8 +843,8 @@ ieee:australia a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "australia" ;
     skos:broader ieee:continents .
 
-ieee:aut_horing_systems a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "aut horing systems" ;
+ieee:authoring_systems a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "authoring systems" ;
     skos:broader ieee:software_tools .
 
 ieee:authorization a <https://ieee-taxonomy.org/schema#Topic> ;
@@ -951,8 +943,8 @@ ieee:autopsy a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "autopsy" ;
     skos:broader ieee:medical_diagnosis .
 
-ieee:autoregre_ssive_processes a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "autoregre ssive processes" ;
+ieee:autoregressive_processes a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "autoregressive processes" ;
     skos:broader ieee:statistics .
 
 ieee:auxetic_materials a <https://ieee-taxonomy.org/schema#Topic> ;
@@ -2401,11 +2393,11 @@ ieee:computer_simulation a <https://ieee-taxonomy.org/schema#Topic> ;
 
 ieee:computer_viruses a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "computer viruses" ;
-    skos:broader ieee:glass_box........malware .
+    skos:broader ieee:malware .
 
 ieee:computer_worms a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "computer worms" ;
-    skos:broader ieee:glass_box........malware .
+    skos:broader ieee:malware .
 
 ieee:computerized_instrumentation a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "computerized instrumentation" ;
@@ -2547,10 +2539,6 @@ ieee:contingency_management a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "contingency management" ;
     skos:broader ieee:management .
 
-ieee:continu_ous_time_systems a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "continu ous time systems" ;
-    skos:broader ieee:time_factors .
-
 ieee:continuous-stirred_tank_reactor a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "continuous-stirred tank reactor" ;
     skos:broader ieee:chemical_reactions .
@@ -2562,6 +2550,10 @@ ieee:continuous_phase_modulation a <https://ieee-taxonomy.org/schema#Topic> ;
 ieee:continuous_production a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "continuous production" ;
     skos:broader ieee:production_control .
+
+ieee:continuous_time_systems a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "continuous time systems" ;
+    skos:broader ieee:time_factors .
 
 ieee:continuous_wavelet_transforms a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "continuous wavelet transforms" ;
@@ -3859,8 +3851,8 @@ ieee:electron_accelerators a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "electron accelerators" ;
     skos:broader ieee:particle_accelerators .
 
-ieee:electron_ba_ckscatter_diffraction a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "electron ba ckscatter diffraction" ;
+ieee:electron_backscatter_diffraction a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "electron backscatter diffraction" ;
     skos:broader ieee:diffraction .
 
 ieee:electron_beams a <https://ieee-taxonomy.org/schema#Topic> ;
@@ -5126,10 +5118,6 @@ ieee:giant_magnetoresistance a <https://ieee-taxonomy.org/schema#Topic> ;
 ieee:glass a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "glass" ;
     skos:broader ieee:amorphous_materials .
-
-ieee:glass_box a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "glass box" ;
-    skos:broader ieee:system_analysis_and_design .
 
 ieee:glass_industry a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "glass industry" ;
@@ -8941,7 +8929,7 @@ ieee:ocean_salinity a <https://ieee-taxonomy.org/schema#Topic> ;
 
 ieee:oceanographic_techniques a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "oceanographic techniques" ;
-    skos:broader ieee:nuclear_and_plasma_sciences .
+    skos:broader ieee:oceanic_engineering_and_marine_technology .
 
 ieee:octrees a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "octrees" ;
@@ -11017,7 +11005,7 @@ ieee:ranking_%28statistics%29 a <https://ieee-taxonomy.org/schema#Topic> ;
 
 ieee:ransomware a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ransomware" ;
-    skos:broader ieee:glass_box........malware .
+    skos:broader ieee:malware .
 
 ieee:rapid_prototyping a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "rapid prototyping" ;
@@ -11415,8 +11403,8 @@ ieee:roaming a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "roaming" ;
     skos:broader ieee:wireless_communication .
 
-ieee:robot__vision_systems a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "robot  vision systems" ;
+ieee:robot_vision_systems a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "robot vision systems" ;
     skos:broader ieee:robot_sensing_systems .
 
 ieee:robotic_assembly a <https://ieee-taxonomy.org/schema#Topic> ;
@@ -11457,7 +11445,7 @@ ieee:root_cause_analysis a <https://ieee-taxonomy.org/schema#Topic> ;
 
 ieee:rootkit a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "rootkit" ;
-    skos:broader ieee:glass_box........malware .
+    skos:broader ieee:malware .
 
 ieee:rotating_machines a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "rotating machines" ;
@@ -12967,8 +12955,8 @@ ieee:surveys a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "surveys" ;
     skos:broader ieee:statistics .
 
-ieee:suspensions__%28mechanical_systems%29 a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "suspensions  (mechanical systems)" ;
+ieee:suspensions_%28mechanical_systems%29 a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "suspensions (mechanical systems)" ;
     skos:broader ieee:mechanical_systems .
 
 ieee:swaging a <https://ieee-taxonomy.org/schema#Topic> ;
@@ -13279,8 +13267,8 @@ ieee:temperature_measurement a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "temperature measurement" ;
     skos:broader ieee:thermal_variables_measurement .
 
-ieee:tensors....topology a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "tensors....topology" ;
+ieee:tensors a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "tensors" ;
     skos:broader ieee:mathematics .
 
 ieee:terahertz_communications a <https://ieee-taxonomy.org/schema#Topic> ;
@@ -13383,8 +13371,8 @@ ieee:thermal_stresses a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "thermal stresses" ;
     skos:broader ieee:thermal_factors .
 
-ieee:thermionic_emissionoceanic_engineering_and_marine_technology a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "thermionic emissionoceanic engineering and marine technology" ;
+ieee:thermionic_emission a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "thermionic emission" ;
     skos:broader ieee:nuclear_and_plasma_sciences .
 
 ieee:thermistors a <https://ieee-taxonomy.org/schema#Topic> ;
@@ -13651,6 +13639,10 @@ ieee:topological_insulators a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "topological insulators" ;
     skos:broader ieee:insulators .
 
+ieee:topology a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "topology" ;
+    skos:broader ieee:mathematics .
+
 ieee:topsis a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "topsis" ;
     skos:broader ieee:decision_theory .
@@ -13829,7 +13821,7 @@ ieee:triples_%28data_structure%29 a <https://ieee-taxonomy.org/schema#Topic> ;
 
 ieee:trojan_horses a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "trojan horses" ;
-    skos:broader ieee:glass_box........malware .
+    skos:broader ieee:malware .
 
 ieee:tropical_cyclones a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "tropical cyclones" ;
@@ -14691,6 +14683,11 @@ ieee:admittance_control a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "admittance control" ;
     skos:broader ieee:admittance,
         ieee:control_systems .
+
+ieee:advanced_driver_assistance_systems a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "advanced driver assistance systems" ;
+    skos:broader ieee:traffic_control,
+        ieee:vehicle_safety .
 
 ieee:aerospace_biophysics a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "aerospace biophysics" ;
@@ -15605,7 +15602,7 @@ ieee:dielectric_films a <https://ieee-taxonomy.org/schema#Topic> ;
 ieee:diffraction a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "diffraction" ;
     skos:broader ieee:interference ;
-    skos:narrower ieee:electron_ba_ckscatter_diffraction .
+    skos:narrower ieee:electron_backscatter_diffraction .
 
 ieee:diffserv_networks a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "diffserv networks" ;
@@ -16307,6 +16304,11 @@ ieee:gesture_recognition a <https://ieee-taxonomy.org/schema#Topic> ;
     skos:broader ieee:pattern_recognition ;
     skos:narrower ieee:sign_language .
 
+ieee:glass_box a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "glass box" ;
+    skos:broader ieee:software,
+        ieee:system_analysis_and_design .
+
 ieee:gold a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "gold" ;
     skos:broader ieee:metals ;
@@ -16975,7 +16977,7 @@ ieee:manganese a <https://ieee-taxonomy.org/schema#Topic> ;
 ieee:marine_navigation a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "marine navigation" ;
     skos:broader ieee:navigation,
-        ieee:nuclear_and_plasma_sciences .
+        ieee:oceanic_engineering_and_marine_technology .
 
 ieee:marine_robots a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "marine robots" ;
@@ -17484,7 +17486,7 @@ ieee:object_oriented_databases a <https://ieee-taxonomy.org/schema#Topic> ;
 
 ieee:ocean_temperature a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ocean temperature" ;
-    skos:broader ieee:nuclear_and_plasma_sciences,
+    skos:broader ieee:oceanic_engineering_and_marine_technology,
         ieee:oceans .
 
 ieee:odometers a <https://ieee-taxonomy.org/schema#Topic> ;
@@ -18540,7 +18542,7 @@ ieee:software_radio a <https://ieee-taxonomy.org/schema#Topic> ;
 ieee:software_tools a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "software tools" ;
     skos:broader ieee:software ;
-    skos:narrower ieee:aut_horing_systems .
+    skos:narrower ieee:authoring_systems .
 
 ieee:soil_measurements a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "soil measurements" ;
@@ -21383,7 +21385,7 @@ ieee:volcanoes a <https://ieee-taxonomy.org/schema#Topic> ;
 
 ieee:water_pollution a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "water pollution" ;
-    skos:broader ieee:nuclear_and_plasma_sciences,
+    skos:broader ieee:oceanic_engineering_and_marine_technology,
         ieee:pollution ;
     skos:narrower ieee:marine_pollution .
 
@@ -22009,7 +22011,7 @@ ieee:mechanical_systems a <https://ieee-taxonomy.org/schema#Topic> ;
     skos:broader ieee:mechanical_engineering ;
     skos:narrower ieee:mechanical_energy,
         ieee:micromechanical_devices,
-        ieee:suspensions__%28mechanical_systems%29 .
+        ieee:suspensions_%28mechanical_systems%29 .
 
 ieee:medical_information_systems a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "medical information systems" ;
@@ -23043,6 +23045,14 @@ ieee:neural_engineering a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:neural_nanotechnology,
         ieee:neural_prosthesis .
 
+ieee:oceanic_engineering_and_marine_technology a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "oceanic engineering and marine technology" ;
+    skos:narrower ieee:marine_navigation,
+        ieee:marine_technology,
+        ieee:ocean_temperature,
+        ieee:oceanographic_techniques,
+        ieee:water_pollution .
+
 ieee:ofdm a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ofdm" ;
     skos:broader ieee:multiplexing ;
@@ -23358,7 +23368,7 @@ ieee:textiles a <https://ieee-taxonomy.org/schema#Topic> ;
 ieee:time_factors a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "time factors" ;
     skos:broader ieee:system_analysis_and_design ;
-    skos:narrower ieee:continu_ous_time_systems,
+    skos:narrower ieee:continuous_time_systems,
         ieee:discrete-time_systems,
         ieee:time-varying_systems,
         ieee:time_invariant_systems .
@@ -23366,7 +23376,7 @@ ieee:time_factors a <https://ieee-taxonomy.org/schema#Topic> ;
 ieee:traffic_control a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "traffic control" ;
     skos:broader ieee:control_systems ;
-    skos:narrower ieee:advanced_driver__assistance_systems,
+    skos:narrower ieee:advanced_driver_assistance_systems,
         ieee:queueing_analysis,
         ieee:road_traffic_control,
         ieee:vehicle_routing .
@@ -23625,15 +23635,6 @@ ieee:gallium_compounds a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:indium_gallium_arsenide,
         ieee:indium_gallium_nitride .
 
-ieee:glass_box........malware a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "glass box........malware" ;
-    skos:broader ieee:software ;
-    skos:narrower ieee:computer_viruses,
-        ieee:computer_worms,
-        ieee:ransomware,
-        ieee:rootkit,
-        ieee:trojan_horses .
-
 ieee:image_sensors a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "image sensors" ;
     skos:broader ieee:imaging ;
@@ -23732,6 +23733,15 @@ ieee:magnetoelectric_effects a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:magnetoelectronics,
         ieee:magnetoresistance,
         ieee:spintronics .
+
+ieee:malware a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "malware" ;
+    skos:broader ieee:software ;
+    skos:narrower ieee:computer_viruses,
+        ieee:computer_worms,
+        ieee:ransomware,
+        ieee:rootkit,
+        ieee:trojan_horses .
 
 ieee:manufacturing_automation a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "manufacturing automation" ;
@@ -24402,7 +24412,7 @@ ieee:robot_sensing_systems a <https://ieee-taxonomy.org/schema#Topic> ;
     skos:broader ieee:robots,
         ieee:sensor_systems_and_applications ;
     skos:narrower ieee:propioception,
-        ieee:robot__vision_systems,
+        ieee:robot_vision_systems,
         ieee:simultaneous_localization_and_mapping,
         ieee:stereognosis,
         ieee:tactile_sensors .
@@ -24825,7 +24835,7 @@ ieee:magnetoresistance a <https://ieee-taxonomy.org/schema#Topic> ;
 
 ieee:marine_technology a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "marine technology" ;
-    skos:broader ieee:nuclear_and_plasma_sciences ;
+    skos:broader ieee:oceanic_engineering_and_marine_technology ;
     skos:narrower ieee:marine_equipment,
         ieee:marine_transportation,
         ieee:underwater_cables,
@@ -28230,6 +28240,34 @@ ieee:mechanical_products a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:vents,
         ieee:wheels .
 
+ieee:nuclear_and_plasma_sciences a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "nuclear and plasma sciences" ;
+    skos:narrower ieee:biomedical_applications_of_radiation,
+        ieee:colliding_beam_devices,
+        ieee:electron_emission,
+        ieee:elementary_particles,
+        ieee:fusion_power_generation,
+        ieee:fusion_reactors,
+        ieee:gamma-rays,
+        ieee:gas_discharge_devices,
+        ieee:high_energy_physics_instrumentation_computing,
+        ieee:ion_beam_applications,
+        ieee:nuclear_electronics,
+        ieee:nuclear_imaging,
+        ieee:nuclear_medicine,
+        ieee:nuclear_physics,
+        ieee:particle_accelerators,
+        ieee:particle_beam_handling,
+        ieee:particle_beam_injection,
+        ieee:plasmas,
+        ieee:radiation_effects,
+        ieee:radiation_hardening_%28electronics%29,
+        ieee:radiation_monitoring,
+        ieee:radiation_safety,
+        ieee:reactor_instrumentation,
+        ieee:scintillation_counters,
+        ieee:thermionic_emission .
+
 ieee:professional_communication a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "professional communication" ;
     skos:narrower ieee:collaboration,
@@ -28266,7 +28304,8 @@ ieee:software a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:closed_box,
         ieee:embedded_software,
         ieee:freeware,
-        ieee:glass_box........malware,
+        ieee:glass_box,
+        ieee:malware,
         ieee:middleware,
         ieee:open_source_software,
         ieee:optical_character_recognition,
@@ -28380,7 +28419,7 @@ ieee:statistics a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "statistics" ;
     skos:broader ieee:mathematics ;
     skos:narrower ieee:adaptive_estimation,
-        ieee:autoregre_ssive_processes,
+        ieee:autoregressive_processes,
         ieee:boltzmann_distribution,
         ieee:correlation,
         ieee:correlation_coefficient,
@@ -28530,39 +28569,6 @@ ieee:computer_applications a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:virtual_manufacturing,
         ieee:web_sites,
         ieee:world_wide_web .
-
-ieee:nuclear_and_plasma_sciences a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "nuclear and plasma sciences" ;
-    skos:narrower ieee:biomedical_applications_of_radiation,
-        ieee:colliding_beam_devices,
-        ieee:electron_emission,
-        ieee:elementary_particles,
-        ieee:fusion_power_generation,
-        ieee:fusion_reactors,
-        ieee:gamma-rays,
-        ieee:gas_discharge_devices,
-        ieee:high_energy_physics_instrumentation_computing,
-        ieee:ion_beam_applications,
-        ieee:marine_navigation,
-        ieee:marine_technology,
-        ieee:nuclear_electronics,
-        ieee:nuclear_imaging,
-        ieee:nuclear_medicine,
-        ieee:nuclear_physics,
-        ieee:ocean_temperature,
-        ieee:oceanographic_techniques,
-        ieee:particle_accelerators,
-        ieee:particle_beam_handling,
-        ieee:particle_beam_injection,
-        ieee:plasmas,
-        ieee:radiation_effects,
-        ieee:radiation_hardening_%28electronics%29,
-        ieee:radiation_monitoring,
-        ieee:radiation_safety,
-        ieee:reactor_instrumentation,
-        ieee:scintillation_counters,
-        ieee:thermionic_emissionoceanic_engineering_and_marine_technology,
-        ieee:water_pollution .
 
 ieee:system_analysis_and_design a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "system analysis and design" ;
@@ -29535,7 +29541,8 @@ ieee:mathematics a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:stochastic_processes,
         ieee:superposition_calculus,
         ieee:taylor_series,
-        ieee:tensors....topology,
+        ieee:tensors,
+        ieee:topology,
         ieee:transforms,
         ieee:transmission_line_matrix_methods,
         ieee:uncertain_systems,

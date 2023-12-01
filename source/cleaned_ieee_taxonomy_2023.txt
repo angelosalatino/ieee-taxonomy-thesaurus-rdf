@@ -1561,7 +1561,8 @@ Computers and information processing
 ........Closed box
 ........Embedded software
 ........Freeware
-........Glass box........Malware
+........Glass box
+........Malware
 ............Computer viruses
 ............Computer worms
 ............Ransomware
@@ -1600,7 +1601,7 @@ Computers and information processing
 ........Software safety
 ........Software systems
 ........Software tools
-............Aut horing systems
+............Authoring systems
 ........System software
 ............File systems
 ............Operating systems
@@ -1802,7 +1803,7 @@ Control systems
 ........Thermal analysis
 ............Thermomechanical processes
 ....Traffic control
-........Advanced driver  assistance systems
+........Advanced driver assistance systems
 ........Queueing analysis
 ........Road traffic control
 ............Road traffic
@@ -1971,7 +1972,7 @@ Electromagnetic compatibility and interference
 ........Clutter
 ........Crosstalk
 ........Diffraction
-............Electron ba ckscatter diffraction
+............Electron backscatter diffraction
 ........Echo interference
 ........Electromagnetic interference
 ............Radiofrequency interference
@@ -2221,7 +2222,7 @@ Engineering – general
 ........Mechanical systems
 ............Mechanical energy
 ............Micromechanical devices
-............Suspensions  (mechanical systems)
+............Suspensions (mechanical systems)
 ....Optical engineering
 ....Precision engineering
 ....Production engineering
@@ -5220,7 +5221,7 @@ Mathematics
 ....Spirals
 ....Statistics
 ........Adaptive estimation
-........Autoregre ssive processes
+........Autoregressive processes
 ........Boltzmann distribution
 ............Lattice Boltzmann methods
 ........Correlation
@@ -5271,7 +5272,8 @@ Mathematics
 ............Markov random fields
 ....Superposition calculus
 ....Taylor series
-....Tensors....Topology
+....Tensors
+....Topology
 ....Transforms
 ........Discrete transforms
 ............Discrete cosine transforms
@@ -5509,7 +5511,8 @@ Nuclear and plasma sciences
 ....Reactor instrumentation
 ....Scintillation counters
 ........Solid scintillation detectors
-....Thermionic emissionOceanic engineering and marine technology
+....Thermionic emission
+Oceanic engineering and marine technology
 ....Marine navigation
 ....Marine technology
 ........Marine equipment
@@ -6582,7 +6585,7 @@ Sensors
 ............RFID tags
 ........Robot sensing systems
 ............Propioception
-............Robot  vision systems
+............Robot vision systems
 ............Simultaneous localization and mapping
 ............Stereognosis
 ............Tactile sensors
@@ -7078,7 +7081,7 @@ Systems engineering and theory
 ........Systems Modeling Language
 ........Task analysis
 ........Time factors
-............Continu ous time systems
+............Continuous time systems
 ............Discrete-time systems
 ............Time invariant systems
 ............Time-varying systems

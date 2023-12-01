@@ -7055,7 +7055,7 @@ Ultrasonics, ferroelectrics, and frequency control
 ............Optical tuning
 ............Tuners
 ....Piezoelectricity
-........Piezoelectric ffect
+........Piezoelectric effect
 ........Piezoelectric polarization
 ....Pyroelectricity
 ....Ultrasonic imaging
