@@ -208,8 +208,7 @@ Circuits and systems
 ........Integrated circuits
 ............Analog integrated circuits
 ............Analog-digital integrated circuits
-............Application specific integrated
-circuits
+............Application specific integrated circuits
 ............Chiplets
 ............CMOS integrated circuits
 ............Coprocessors
