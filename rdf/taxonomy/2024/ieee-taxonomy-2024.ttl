@@ -3,36 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-ieee:ieee_chapters a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee chapters" .
-
-ieee:ieee_committees a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee committees" .
-
-ieee:ieee_communities a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee communities" .
-
-ieee:ieee_computer_society_press a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee computer society press" .
-
-ieee:ieee_councils a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee councils" .
-
-ieee:ieee_foundation a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee foundation" .
-
-ieee:ieee_press a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee press" .
-
-ieee:ieee_regions a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee regions" .
-
-ieee:ieee_sections a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee sections" .
-
-ieee:ieee_societies a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee societies" .
-
 ieee:accuracy a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "accuracy" ;
     skos:broader ieee:mathematics .
@@ -1547,6 +1517,11 @@ ieee:boltzmann_equation a <https://ieee-taxonomy.org/schema#Topic> ;
     skos:broader ieee:equations,
         ieee:mathematics .
 
+ieee:book_reviews a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "book reviews" ;
+    skos:broader ieee:ieee_indexing,
+        ieee:ieee_organization .
+
 ieee:bottling a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "bottling" ;
     skos:broader ieee:industry_applications,
@@ -2502,6 +2477,11 @@ ieee:electrical_capacitance_tomography a <https://ieee-taxonomy.org/schema#Topic
     skos:broader ieee:imaging,
         ieee:tomography .
 
+ieee:electrical_engineering a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "electrical engineering" ;
+    skos:broader ieee:engineering_%E2%80%93_general ;
+    skos:narrower ieee:electrical_engineering_computing .
+
 ieee:electrical_engineering_computing a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "electrical engineering computing" ;
     skos:broader ieee:electrical_engineering,
@@ -3277,13 +3257,53 @@ ieee:hysteresis a <https://ieee-taxonomy.org/schema#Topic> ;
     skos:broader ieee:materials%2C_elements%2C_and_compounds,
         ieee:materials_science_and_technology .
 
+ieee:ieee_associate_members a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee associate members" ;
+    skos:broader ieee:ieee_members,
+        ieee:ieee_organization .
+
 ieee:ieee_boards a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ieee boards" ;
     skos:broader ieee:ieee_entities,
         ieee:ieee_organization .
 
-ieee:ieee_center_for_the_history_of a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee center for the history of" ;
+ieee:ieee_bylaws a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee bylaws" ;
+    skos:broader ieee:ieee_governance,
+        ieee:ieee_organization .
+
+ieee:ieee_catalogs a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee catalogs" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products .
+
+ieee:ieee_center_for_the_history_of_electrical_engineering a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee center for the history of electrical engineering" ;
+    skos:broader ieee:ieee_entities,
+        ieee:ieee_organization .
+
+ieee:ieee_chapters a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee chapters" ;
+    skos:broader ieee:ieee_entities,
+        ieee:ieee_organization .
+
+ieee:ieee_collabratec a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee collabratec" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products .
+
+ieee:ieee_committees a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee committees" ;
+    skos:broader ieee:ieee_entities,
+        ieee:ieee_organization .
+
+ieee:ieee_communities a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee communities" ;
+    skos:broader ieee:ieee_entities,
+        ieee:ieee_organization .
+
+ieee:ieee_computer_society_press a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee computer society press" ;
     skos:broader ieee:ieee_entities,
         ieee:ieee_organization .
 
@@ -3292,14 +3312,44 @@ ieee:ieee_conference_activities a <https://ieee-taxonomy.org/schema#Topic> ;
     skos:broader ieee:ieee_activities,
         ieee:ieee_organization .
 
+ieee:ieee_constitution a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee constitution" ;
+    skos:broader ieee:ieee_governance,
+        ieee:ieee_organization .
+
+ieee:ieee_councils a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee councils" ;
+    skos:broader ieee:ieee_entities,
+        ieee:ieee_organization .
+
 ieee:ieee_educational_activities a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ieee educational activities" ;
     skos:broader ieee:ieee_activities,
         ieee:ieee_organization .
 
+ieee:ieee_educational_products a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee educational products" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products .
+
+ieee:ieee_fellows a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee fellows" ;
+    skos:broader ieee:ieee_members,
+        ieee:ieee_organization .
+
+ieee:ieee_foundation a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee foundation" ;
+    skos:broader ieee:ieee_entities,
+        ieee:ieee_organization .
+
 ieee:ieee_intersociety_activities a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ieee intersociety activities" ;
     skos:broader ieee:ieee_activities,
+        ieee:ieee_organization .
+
+ieee:ieee_life_members a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee life members" ;
+    skos:broader ieee:ieee_members,
         ieee:ieee_organization .
 
 ieee:ieee_local_activities a <https://ieee-taxonomy.org/schema#Topic> ;
@@ -3312,6 +3362,26 @@ ieee:ieee_member_and_geographic_activities a <https://ieee-taxonomy.org/schema#T
     skos:broader ieee:ieee_activities,
         ieee:ieee_organization .
 
+ieee:ieee_merchandise a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee merchandise" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products .
+
+ieee:ieee_news a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee news" ;
+    skos:broader ieee:ieee_organization ;
+    skos:narrower ieee:ieee_society_news .
+
+ieee:ieee_policy_and_procedures a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee policy and procedures" ;
+    skos:broader ieee:ieee_governance,
+        ieee:ieee_organization .
+
+ieee:ieee_press a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee press" ;
+    skos:broader ieee:ieee_entities,
+        ieee:ieee_organization .
+
 ieee:ieee_professional_activities a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ieee professional activities" ;
     skos:broader ieee:ieee_activities,
@@ -3320,6 +3390,36 @@ ieee:ieee_professional_activities a <https://ieee-taxonomy.org/schema#Topic> ;
 ieee:ieee_publishing a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ieee publishing" ;
     skos:broader ieee:ieee_activities,
+        ieee:ieee_organization .
+
+ieee:ieee_regions a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee regions" ;
+    skos:broader ieee:ieee_entities,
+        ieee:ieee_organization .
+
+ieee:ieee_sections a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee sections" ;
+    skos:broader ieee:ieee_entities,
+        ieee:ieee_organization .
+
+ieee:ieee_senior_members a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee senior members" ;
+    skos:broader ieee:ieee_members,
+        ieee:ieee_organization .
+
+ieee:ieee_societies a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee societies" ;
+    skos:broader ieee:ieee_entities,
+        ieee:ieee_organization .
+
+ieee:ieee_society_news a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee society news" ;
+    skos:broader ieee:ieee_news,
+        ieee:ieee_organization .
+
+ieee:ieee_staff a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee staff" ;
+    skos:broader ieee:ieee_governance,
         ieee:ieee_organization .
 
 ieee:ieee_standards_activities a <https://ieee-taxonomy.org/schema#Topic> ;
@@ -3641,6 +3741,11 @@ ieee:intersymbol_interference a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "intersymbol interference" ;
     skos:broader ieee:electromagnetic_compatibility_and_interference,
         ieee:interference .
+
+ieee:interviews a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "interviews" ;
+    skos:broader ieee:ieee_indexing,
+        ieee:ieee_organization .
 
 ieee:ion_accelerators a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ion accelerators" ;
@@ -4661,6 +4766,11 @@ ieee:numerical_stability a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "numerical stability" ;
     skos:broader ieee:mathematics,
         ieee:numerical_analysis .
+
+ieee:obituaries a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "obituaries" ;
+    skos:broader ieee:ieee_indexing,
+        ieee:ieee_organization .
 
 ieee:object_oriented_modeling a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "object oriented modeling" ;
@@ -6212,6 +6322,11 @@ ieee:software_reusability a <https://ieee-taxonomy.org/schema#Topic> ;
     skos:broader ieee:computers_and_information_processing,
         ieee:software .
 
+ieee:software_reviews a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "software reviews" ;
+    skos:broader ieee:ieee_indexing,
+        ieee:ieee_organization .
+
 ieee:software_safety a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "software safety" ;
     skos:broader ieee:computers_and_information_processing,
@@ -6306,6 +6421,11 @@ ieee:speaker_recognition a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "speaker recognition" ;
     skos:broader ieee:identification_of_persons,
         ieee:systems%2C_man%2C_and_cybernetics .
+
+ieee:special_issues_and_sections a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "special issues and sections" ;
+    skos:broader ieee:ieee_indexing,
+        ieee:ieee_organization .
 
 ieee:speech_coding a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "speech coding" ;
@@ -6991,6 +7111,11 @@ ieee:video_conferencing a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "video conferencing" ;
     skos:broader ieee:communication_systems,
         ieee:communications_technology .
+
+ieee:video_reviews a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "video reviews" ;
+    skos:broader ieee:ieee_indexing,
+        ieee:ieee_organization .
 
 ieee:videophone_systems a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "videophone systems" ;
@@ -7945,6 +8070,12 @@ ieee:auxiliary_transmitters a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:communications_technology,
         ieee:transmitters .
 
+ieee:awards a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "awards" ;
+    skos:broader ieee:ieee_indexing,
+        ieee:ieee_organization ;
+    skos:narrower ieee:nobel_prize .
+
 ieee:awgn_channels a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "awgn channels" ;
     skos:broader ieee:communication_channels,
@@ -8310,12 +8441,6 @@ ieee:bonding_processes a <https://ieee-taxonomy.org/schema#Topic> ;
     skos:broader ieee:fabrication,
         ieee:industry_applications,
         ieee:manufacturing .
-
-ieee:book_reviews a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "book reviews" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_indexing .
 
 ieee:boolean_algebra a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "boolean algebra" ;
@@ -12457,35 +12582,17 @@ ieee:hysteresis_motors a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:machinery,
         ieee:motors .
 
-ieee:ieee_associate_members a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee associate members" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_members .
+ieee:ieee_books a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee books" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products,
+        ieee:ieee_publications .
 
-ieee:ieee_bylaws a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee bylaws" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_governance .
-
-ieee:ieee_catalogs a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee catalogs" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products .
-
-ieee:ieee_collabratec a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee collabratec" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products .
-
-ieee:ieee_constitution a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee constitution" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_governance .
+ieee:ieee_conference_proceedings a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee conference proceedings" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products,
+        ieee:ieee_publications .
 
 ieee:ieee_corporate_activities a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ieee corporate activities" ;
@@ -12499,53 +12606,35 @@ ieee:ieee_corporate_awards a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:ieee_awards_activities,
         ieee:ieee_organization .
 
-ieee:ieee_educational_products a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee educational products" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products .
+ieee:ieee_directories a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee directories" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products,
+        ieee:ieee_publications .
 
-ieee:ieee_entities a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee entities" ;
-    skos:broader ieee:ieee_organization ;
-    skos:narrower ieee:ieee_boards,
-        ieee:ieee_center_for_the_history_of .
+ieee:ieee_journals a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee journals" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products,
+        ieee:ieee_publications .
 
-ieee:ieee_fellows a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee fellows" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_members .
+ieee:ieee_magazines a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee magazines" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products,
+        ieee:ieee_publications .
 
-ieee:ieee_life_members a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee life members" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_members .
+ieee:ieee_newsletters a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee newsletters" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products,
+        ieee:ieee_publications .
 
-ieee:ieee_merchandise a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee merchandise" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products .
-
-ieee:ieee_news a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee news" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general ;
-    skos:narrower ieee:ieee_society_news .
-
-ieee:ieee_policy_and_procedures a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee policy and procedures" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_governance .
-
-ieee:ieee_senior_members a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee senior members" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_members .
+ieee:ieee_online_publications a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee online publications" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products,
+        ieee:ieee_publications .
 
 ieee:ieee_society_awards a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ieee society awards" ;
@@ -12553,23 +12642,29 @@ ieee:ieee_society_awards a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:ieee_awards_activities,
         ieee:ieee_organization .
 
-ieee:ieee_society_news a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee society news" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_news .
-
-ieee:ieee_staff a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee staff" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_governance .
-
 ieee:ieee_standards_awards a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ieee standards awards" ;
     skos:broader ieee:ieee_activities,
         ieee:ieee_awards_activities,
         ieee:ieee_organization .
+
+ieee:ieee_transactions a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee transactions" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products,
+        ieee:ieee_publications .
+
+ieee:ieee_xplore a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee xplore" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products ;
+    skos:narrower ieee:iel .
+
+ieee:iel a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "iel" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products,
+        ieee:ieee_xplore .
 
 ieee:ii-vi_semiconductor_materials a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "ii-vi semiconductor materials" ;
@@ -13080,12 +13175,6 @@ ieee:interrupters a <https://ieee-taxonomy.org/schema#Topic> ;
     skos:broader ieee:control_equipment,
         ieee:control_systems,
         ieee:switchgear .
-
-ieee:interviews a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "interviews" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_indexing .
 
 ieee:intracranial_pressure_sensors a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "intracranial pressure sensors" ;
@@ -15091,6 +15180,12 @@ ieee:nitrogen_compounds a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:materials%2C_elements%2C_and_compounds,
         ieee:nitrogen .
 
+ieee:nobel_prize a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "nobel prize" ;
+    skos:broader ieee:awards,
+        ieee:ieee_indexing,
+        ieee:ieee_organization .
+
 ieee:noise_figure a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "noise figure" ;
     skos:broader ieee:instrumentation_and_measurement,
@@ -15163,6 +15258,12 @@ ieee:nonuniform_sampling a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:sampling_methods,
         ieee:statistics .
 
+ieee:notice_of_violation a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "notice of violation" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products,
+        ieee:ieee_publications .
+
 ieee:nuclear_energy a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "nuclear energy" ;
     skos:broader ieee:energy,
@@ -15198,12 +15299,6 @@ ieee:obesity a <https://ieee-taxonomy.org/schema#Topic> ;
     skos:broader ieee:engineering_in_medicine_and_biology,
         ieee:medical_conditions,
         ieee:medical_services .
-
-ieee:obituaries a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "obituaries" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_indexing .
 
 ieee:object_detection a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "object detection" ;
@@ -18181,12 +18276,6 @@ ieee:software_protection a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:engineering_management,
         ieee:legal_factors .
 
-ieee:software_reviews a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "software reviews" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_indexing .
-
 ieee:software_tools a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "software tools" ;
     skos:broader ieee:computers_and_information_processing,
@@ -18330,12 +18419,6 @@ ieee:spatiotemporal_phenomena a <https://ieee-taxonomy.org/schema#Topic> ;
     skos:broader ieee:chaos,
         ieee:mathematics,
         ieee:nonlinear_systems .
-
-ieee:special_issues_and_sections a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "special issues and sections" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_indexing .
 
 ieee:specific_absorption_rate a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "specific absorption rate" ;
@@ -20041,12 +20124,6 @@ ieee:video_compression a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:signal_processing,
         ieee:video_signal_processing .
 
-ieee:video_reviews a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "video reviews" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_indexing .
-
 ieee:video_surveillance a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "video surveillance" ;
     skos:broader ieee:instrumentation_and_measurement,
@@ -20897,13 +20974,6 @@ ieee:automatic_test_equipment a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:instrumentation_and_measurement,
         ieee:test_equipment,
         ieee:testing .
-
-ieee:awards a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "awards" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_indexing ;
-    skos:narrower ieee:nobel_prize .
 
 ieee:baseband a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "baseband" ;
@@ -22333,76 +22403,6 @@ ieee:icebergs a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:ice,
         ieee:science_%E2%80%93general .
 
-ieee:ieee_books a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee books" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products,
-        ieee:ieee_publications .
-
-ieee:ieee_conference_proceedings a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee conference proceedings" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products,
-        ieee:ieee_publications .
-
-ieee:ieee_directories a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee directories" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products,
-        ieee:ieee_publications .
-
-ieee:ieee_journals a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee journals" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products,
-        ieee:ieee_publications .
-
-ieee:ieee_magazines a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee magazines" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products,
-        ieee:ieee_publications .
-
-ieee:ieee_newsletters a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee newsletters" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products,
-        ieee:ieee_publications .
-
-ieee:ieee_online_publications a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee online publications" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products,
-        ieee:ieee_publications .
-
-ieee:ieee_transactions a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee transactions" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products,
-        ieee:ieee_publications .
-
-ieee:ieee_xplore a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee xplore" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products ;
-    skos:narrower ieee:iel .
-
-ieee:iel a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "iel" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products,
-        ieee:ieee_xplore .
-
 ieee:iir_filters a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "iir filters" ;
     skos:broader ieee:circuits_and_systems,
@@ -23110,13 +23110,6 @@ ieee:niobium-tin a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:superconducting_materials,
         ieee:superconductivity .
 
-ieee:nobel_prize a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "nobel prize" ;
-    skos:broader ieee:awards,
-        ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_indexing .
-
 ieee:nonlinear_distortion a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "nonlinear distortion" ;
     skos:broader ieee:distortion,
@@ -23165,13 +23158,6 @@ ieee:notch_filters a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:filtering,
         ieee:filters,
         ieee:signal_processing .
-
-ieee:notice_of_violation a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "notice of violation" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products,
-        ieee:ieee_publications .
 
 ieee:nuclear_imaging a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "nuclear imaging" ;
@@ -24411,6 +24397,13 @@ ieee:turbomachinery a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:power_generation ;
     skos:narrower ieee:turbines,
         ieee:turbogenerators .
+
+ieee:tutorials a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "tutorials" ;
+    skos:broader ieee:education,
+        ieee:educational_programs,
+        ieee:ieee_indexing,
+        ieee:ieee_organization .
 
 ieee:tv_equipment a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "tv equipment" ;
@@ -26137,6 +26130,22 @@ ieee:hypermedia a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:consumer_electronics,
         ieee:multimedia_communication,
         ieee:multimedia_systems .
+
+ieee:ieee_governance a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee governance" ;
+    skos:broader ieee:ieee_organization ;
+    skos:narrower ieee:ieee_bylaws,
+        ieee:ieee_constitution,
+        ieee:ieee_policy_and_procedures,
+        ieee:ieee_staff .
+
+ieee:ieee_members a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee members" ;
+    skos:broader ieee:ieee_organization ;
+    skos:narrower ieee:ieee_associate_members,
+        ieee:ieee_fellows,
+        ieee:ieee_life_members,
+        ieee:ieee_senior_members .
 
 ieee:image_databases a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "image databases" ;
@@ -28178,14 +28187,6 @@ ieee:tunneling_magnetoresistance a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:magnetoresistance,
         ieee:tunneling .
 
-ieee:tutorials a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "tutorials" ;
-    skos:broader ieee:education,
-        ieee:educational_programs,
-        ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_indexing .
-
 ieee:uhf_circuits a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "uhf circuits" ;
     skos:broader ieee:circuits,
@@ -29471,24 +29472,6 @@ ieee:ieee_awards_activities a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:ieee_society_awards,
         ieee:ieee_standards_awards,
         ieee:national_society_agreement_awards .
-
-ieee:ieee_governance a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee governance" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general ;
-    skos:narrower ieee:ieee_bylaws,
-        ieee:ieee_constitution,
-        ieee:ieee_policy_and_procedures,
-        ieee:ieee_staff .
-
-ieee:ieee_members a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee members" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general ;
-    skos:narrower ieee:ieee_associate_members,
-        ieee:ieee_fellows,
-        ieee:ieee_life_members,
-        ieee:ieee_senior_members .
 
 ieee:image_resolution a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "image resolution" ;
@@ -34594,6 +34577,19 @@ ieee:human_factors a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:pedestrians,
         ieee:technology_acceptance_model .
 
+ieee:ieee_indexing a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee indexing" ;
+    skos:broader ieee:ieee_organization ;
+    skos:narrower ieee:awards,
+        ieee:book_reviews,
+        ieee:interviews,
+        ieee:nobel_prize,
+        ieee:obituaries,
+        ieee:software_reviews,
+        ieee:special_issues_and_sections,
+        ieee:tutorials,
+        ieee:video_reviews .
+
 ieee:immunofluorescence a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "immunofluorescence" ;
     skos:broader ieee:engineering_in_medicine_and_biology,
@@ -35100,19 +35096,19 @@ ieee:graphics a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:virtual_reality,
         ieee:visualization .
 
-ieee:ieee_indexing a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee indexing" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general ;
-    skos:narrower ieee:awards,
-        ieee:book_reviews,
-        ieee:interviews,
-        ieee:nobel_prize,
-        ieee:obituaries,
-        ieee:software_reviews,
-        ieee:special_issues_and_sections,
-        ieee:tutorials,
-        ieee:video_reviews .
+ieee:ieee_publications a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee publications" ;
+    skos:broader ieee:ieee_organization,
+        ieee:ieee_products ;
+    skos:narrower ieee:ieee_books,
+        ieee:ieee_conference_proceedings,
+        ieee:ieee_directories,
+        ieee:ieee_journals,
+        ieee:ieee_magazines,
+        ieee:ieee_newsletters,
+        ieee:ieee_online_publications,
+        ieee:ieee_transactions,
+        ieee:notice_of_violation .
 
 ieee:intelligent_vehicles a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "intelligent vehicles" ;
@@ -35576,21 +35572,6 @@ ieee:human_computer_interaction a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:telepresence,
         ieee:telexistence .
 
-ieee:ieee_publications a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee publications" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general,
-        ieee:ieee_products ;
-    skos:narrower ieee:ieee_books,
-        ieee:ieee_conference_proceedings,
-        ieee:ieee_directories,
-        ieee:ieee_journals,
-        ieee:ieee_magazines,
-        ieee:ieee_newsletters,
-        ieee:ieee_online_publications,
-        ieee:ieee_transactions,
-        ieee:notice_of_violation .
-
 ieee:light_emitting_diodes a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "light emitting diodes" ;
     skos:broader ieee:circuits,
@@ -35823,6 +35804,22 @@ ieee:geophysics a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:seismology,
         ieee:surface_waves,
         ieee:well_logging .
+
+ieee:ieee_entities a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee entities" ;
+    skos:broader ieee:ieee_organization ;
+    skos:narrower ieee:ieee_boards,
+        ieee:ieee_center_for_the_history_of_electrical_engineering,
+        ieee:ieee_chapters,
+        ieee:ieee_committees,
+        ieee:ieee_communities,
+        ieee:ieee_computer_society_press,
+        ieee:ieee_councils,
+        ieee:ieee_foundation,
+        ieee:ieee_press,
+        ieee:ieee_regions,
+        ieee:ieee_sections,
+        ieee:ieee_societies .
 
 ieee:law a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "law" ;
@@ -36922,6 +36919,26 @@ ieee:energy_conversion a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:wave_energy_conversion,
         ieee:wind_energy_conversion .
 
+ieee:ieee_products a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee products" ;
+    skos:broader ieee:ieee_organization ;
+    skos:narrower ieee:ieee_books,
+        ieee:ieee_catalogs,
+        ieee:ieee_collabratec,
+        ieee:ieee_conference_proceedings,
+        ieee:ieee_directories,
+        ieee:ieee_educational_products,
+        ieee:ieee_journals,
+        ieee:ieee_magazines,
+        ieee:ieee_merchandise,
+        ieee:ieee_newsletters,
+        ieee:ieee_online_publications,
+        ieee:ieee_publications,
+        ieee:ieee_transactions,
+        ieee:ieee_xplore,
+        ieee:iel,
+        ieee:notice_of_violation .
+
 ieee:information_security a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "information security" ;
     skos:broader ieee:business,
@@ -37125,27 +37142,6 @@ ieee:ieee_activities a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:ieee_technical_activities,
         ieee:ieee_united_states_activities,
         ieee:national_society_agreement_awards .
-
-ieee:ieee_products a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee products" ;
-    skos:broader ieee:electrical_engineering,
-        ieee:engineering_%E2%80%93_general ;
-    skos:narrower ieee:ieee_books,
-        ieee:ieee_catalogs,
-        ieee:ieee_collabratec,
-        ieee:ieee_conference_proceedings,
-        ieee:ieee_directories,
-        ieee:ieee_educational_products,
-        ieee:ieee_journals,
-        ieee:ieee_magazines,
-        ieee:ieee_merchandise,
-        ieee:ieee_newsletters,
-        ieee:ieee_online_publications,
-        ieee:ieee_publications,
-        ieee:ieee_transactions,
-        ieee:ieee_xplore,
-        ieee:iel,
-        ieee:notice_of_violation .
 
 ieee:information_technology a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "information technology" ;
@@ -37708,30 +37704,6 @@ ieee:electric_variables_measurement a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:rydberg_atoms,
         ieee:transmission_line_measurements,
         ieee:voltage_measurement .
-
-ieee:ieee_organization a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "ieee organization" ;
-    skos:narrower ieee:humanitarian_activities,
-        ieee:ieee_activities,
-        ieee:ieee_awards_activities,
-        ieee:ieee_boards,
-        ieee:ieee_center_for_the_history_of,
-        ieee:ieee_conference_activities,
-        ieee:ieee_corporate_activities,
-        ieee:ieee_corporate_awards,
-        ieee:ieee_educational_activities,
-        ieee:ieee_entities,
-        ieee:ieee_intersociety_activities,
-        ieee:ieee_local_activities,
-        ieee:ieee_member_and_geographic_activities,
-        ieee:ieee_professional_activities,
-        ieee:ieee_publishing,
-        ieee:ieee_society_awards,
-        ieee:ieee_standards_activities,
-        ieee:ieee_standards_awards,
-        ieee:ieee_technical_activities,
-        ieee:ieee_united_states_activities,
-        ieee:national_society_agreement_awards .
 
 ieee:quantum_mechanics a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "quantum mechanics" ;
@@ -39779,50 +39751,6 @@ ieee:power_electronics a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:voltage_source_inverters,
         ieee:wavelength_converters .
 
-ieee:electrical_engineering a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "electrical engineering" ;
-    skos:broader ieee:engineering_%E2%80%93_general ;
-    skos:narrower ieee:awards,
-        ieee:book_reviews,
-        ieee:electrical_engineering_computing,
-        ieee:ieee_associate_members,
-        ieee:ieee_books,
-        ieee:ieee_bylaws,
-        ieee:ieee_catalogs,
-        ieee:ieee_collabratec,
-        ieee:ieee_conference_proceedings,
-        ieee:ieee_constitution,
-        ieee:ieee_directories,
-        ieee:ieee_educational_products,
-        ieee:ieee_fellows,
-        ieee:ieee_governance,
-        ieee:ieee_indexing,
-        ieee:ieee_journals,
-        ieee:ieee_life_members,
-        ieee:ieee_magazines,
-        ieee:ieee_members,
-        ieee:ieee_merchandise,
-        ieee:ieee_news,
-        ieee:ieee_newsletters,
-        ieee:ieee_online_publications,
-        ieee:ieee_policy_and_procedures,
-        ieee:ieee_products,
-        ieee:ieee_publications,
-        ieee:ieee_senior_members,
-        ieee:ieee_society_news,
-        ieee:ieee_staff,
-        ieee:ieee_transactions,
-        ieee:ieee_xplore,
-        ieee:iel,
-        ieee:interviews,
-        ieee:nobel_prize,
-        ieee:notice_of_violation,
-        ieee:obituaries,
-        ieee:software_reviews,
-        ieee:special_issues_and_sections,
-        ieee:tutorials,
-        ieee:video_reviews .
-
 ieee:safety a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "safety" ;
     skos:broader ieee:industry_applications,
@@ -41181,6 +41109,71 @@ ieee:information_theory a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:turbo_codes,
         ieee:zero_correlation_zone .
 
+ieee:engineering_%E2%80%93_general a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "engineering – general" ;
+    skos:narrower ieee:acoustical_engineering,
+        ieee:agricultural_engineering,
+        ieee:bio-inspired_computing,
+        ieee:bio-inspired_control,
+        ieee:bio-inspired_engineering,
+        ieee:bio-inspired_robotics,
+        ieee:business_process_integration,
+        ieee:business_process_management,
+        ieee:capacity_planning,
+        ieee:cause_effect_analysis,
+        ieee:chemical_engineering,
+        ieee:civil_engineering,
+        ieee:concurrent_engineering,
+        ieee:condition_monitoring,
+        ieee:dams,
+        ieee:deforestation,
+        ieee:design_engineering,
+        ieee:design_tools,
+        ieee:electrical_engineering,
+        ieee:electrical_engineering_computing,
+        ieee:engineering_profession,
+        ieee:environmental_engineering,
+        ieee:excavation,
+        ieee:formal_specifications,
+        ieee:geotechnical_engineering,
+        ieee:geotechnical_structures,
+        ieee:guidelines,
+        ieee:maintenance_engineering,
+        ieee:maintenance_management,
+        ieee:marine_engineering,
+        ieee:materials_requirements_planning,
+        ieee:mechanical_energy,
+        ieee:mechanical_engineering,
+        ieee:mechanical_power_transmission,
+        ieee:mechanical_systems,
+        ieee:micromechanical_devices,
+        ieee:offshore_installations,
+        ieee:optical_engineering,
+        ieee:precision_engineering,
+        ieee:predictive_maintenance,
+        ieee:preventive_maintenance,
+        ieee:process_planning,
+        ieee:production_engineering,
+        ieee:production_planning,
+        ieee:professional_aspects,
+        ieee:railway_engineering,
+        ieee:railway_safety,
+        ieee:research_and_development,
+        ieee:reverse_engineering,
+        ieee:root_cause_analysis,
+        ieee:sanitary_engineering,
+        ieee:standardization,
+        ieee:standards,
+        ieee:standards_categories,
+        ieee:standards_organizations,
+        ieee:standards_publications,
+        ieee:structural_engineering,
+        ieee:suspensions_%28mechanical_systems%29,
+        ieee:systems_support,
+        ieee:thermal_engineering,
+        ieee:torque_converters,
+        ieee:translational_research .
+
 ieee:humanities a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "humanities" ;
     skos:broader ieee:education ;
@@ -41802,6 +41795,79 @@ ieee:artificial_intelligence a <https://ieee-taxonomy.org/schema#Topic> ;
         ieee:transfer_learning,
         ieee:unsupervised_learning,
         ieee:virtual_artifact .
+
+ieee:ieee_organization a <https://ieee-taxonomy.org/schema#Topic> ;
+    rdfs:label "ieee organization" ;
+    skos:narrower ieee:awards,
+        ieee:book_reviews,
+        ieee:humanitarian_activities,
+        ieee:ieee_activities,
+        ieee:ieee_associate_members,
+        ieee:ieee_awards_activities,
+        ieee:ieee_boards,
+        ieee:ieee_books,
+        ieee:ieee_bylaws,
+        ieee:ieee_catalogs,
+        ieee:ieee_center_for_the_history_of_electrical_engineering,
+        ieee:ieee_chapters,
+        ieee:ieee_collabratec,
+        ieee:ieee_committees,
+        ieee:ieee_communities,
+        ieee:ieee_computer_society_press,
+        ieee:ieee_conference_activities,
+        ieee:ieee_conference_proceedings,
+        ieee:ieee_constitution,
+        ieee:ieee_corporate_activities,
+        ieee:ieee_corporate_awards,
+        ieee:ieee_councils,
+        ieee:ieee_directories,
+        ieee:ieee_educational_activities,
+        ieee:ieee_educational_products,
+        ieee:ieee_entities,
+        ieee:ieee_fellows,
+        ieee:ieee_foundation,
+        ieee:ieee_governance,
+        ieee:ieee_indexing,
+        ieee:ieee_intersociety_activities,
+        ieee:ieee_journals,
+        ieee:ieee_life_members,
+        ieee:ieee_local_activities,
+        ieee:ieee_magazines,
+        ieee:ieee_member_and_geographic_activities,
+        ieee:ieee_members,
+        ieee:ieee_merchandise,
+        ieee:ieee_news,
+        ieee:ieee_newsletters,
+        ieee:ieee_online_publications,
+        ieee:ieee_policy_and_procedures,
+        ieee:ieee_press,
+        ieee:ieee_products,
+        ieee:ieee_professional_activities,
+        ieee:ieee_publications,
+        ieee:ieee_publishing,
+        ieee:ieee_regions,
+        ieee:ieee_sections,
+        ieee:ieee_senior_members,
+        ieee:ieee_societies,
+        ieee:ieee_society_awards,
+        ieee:ieee_society_news,
+        ieee:ieee_staff,
+        ieee:ieee_standards_activities,
+        ieee:ieee_standards_awards,
+        ieee:ieee_technical_activities,
+        ieee:ieee_transactions,
+        ieee:ieee_united_states_activities,
+        ieee:ieee_xplore,
+        ieee:iel,
+        ieee:interviews,
+        ieee:national_society_agreement_awards,
+        ieee:nobel_prize,
+        ieee:notice_of_violation,
+        ieee:obituaries,
+        ieee:software_reviews,
+        ieee:special_issues_and_sections,
+        ieee:tutorials,
+        ieee:video_reviews .
 
 ieee:materials_science_and_technology a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "materials science and technology" ;
@@ -43202,110 +43268,6 @@ ieee:electromagnetic_compatibility_and_interference a <https://ieee-taxonomy.org
         ieee:time-domain_analysis,
         ieee:tv_interference,
         ieee:ultra_wideband_radar .
-
-ieee:engineering_%E2%80%93_general a <https://ieee-taxonomy.org/schema#Topic> ;
-    rdfs:label "engineering – general" ;
-    skos:narrower ieee:acoustical_engineering,
-        ieee:agricultural_engineering,
-        ieee:awards,
-        ieee:bio-inspired_computing,
-        ieee:bio-inspired_control,
-        ieee:bio-inspired_engineering,
-        ieee:bio-inspired_robotics,
-        ieee:book_reviews,
-        ieee:business_process_integration,
-        ieee:business_process_management,
-        ieee:capacity_planning,
-        ieee:cause_effect_analysis,
-        ieee:chemical_engineering,
-        ieee:civil_engineering,
-        ieee:concurrent_engineering,
-        ieee:condition_monitoring,
-        ieee:dams,
-        ieee:deforestation,
-        ieee:design_engineering,
-        ieee:design_tools,
-        ieee:electrical_engineering,
-        ieee:electrical_engineering_computing,
-        ieee:engineering_profession,
-        ieee:environmental_engineering,
-        ieee:excavation,
-        ieee:formal_specifications,
-        ieee:geotechnical_engineering,
-        ieee:geotechnical_structures,
-        ieee:guidelines,
-        ieee:ieee_associate_members,
-        ieee:ieee_books,
-        ieee:ieee_bylaws,
-        ieee:ieee_catalogs,
-        ieee:ieee_collabratec,
-        ieee:ieee_conference_proceedings,
-        ieee:ieee_constitution,
-        ieee:ieee_directories,
-        ieee:ieee_educational_products,
-        ieee:ieee_fellows,
-        ieee:ieee_governance,
-        ieee:ieee_indexing,
-        ieee:ieee_journals,
-        ieee:ieee_life_members,
-        ieee:ieee_magazines,
-        ieee:ieee_members,
-        ieee:ieee_merchandise,
-        ieee:ieee_news,
-        ieee:ieee_newsletters,
-        ieee:ieee_online_publications,
-        ieee:ieee_policy_and_procedures,
-        ieee:ieee_products,
-        ieee:ieee_publications,
-        ieee:ieee_senior_members,
-        ieee:ieee_society_news,
-        ieee:ieee_staff,
-        ieee:ieee_transactions,
-        ieee:ieee_xplore,
-        ieee:iel,
-        ieee:interviews,
-        ieee:maintenance_engineering,
-        ieee:maintenance_management,
-        ieee:marine_engineering,
-        ieee:materials_requirements_planning,
-        ieee:mechanical_energy,
-        ieee:mechanical_engineering,
-        ieee:mechanical_power_transmission,
-        ieee:mechanical_systems,
-        ieee:micromechanical_devices,
-        ieee:nobel_prize,
-        ieee:notice_of_violation,
-        ieee:obituaries,
-        ieee:offshore_installations,
-        ieee:optical_engineering,
-        ieee:precision_engineering,
-        ieee:predictive_maintenance,
-        ieee:preventive_maintenance,
-        ieee:process_planning,
-        ieee:production_engineering,
-        ieee:production_planning,
-        ieee:professional_aspects,
-        ieee:railway_engineering,
-        ieee:railway_safety,
-        ieee:research_and_development,
-        ieee:reverse_engineering,
-        ieee:root_cause_analysis,
-        ieee:sanitary_engineering,
-        ieee:software_reviews,
-        ieee:special_issues_and_sections,
-        ieee:standardization,
-        ieee:standards,
-        ieee:standards_categories,
-        ieee:standards_organizations,
-        ieee:standards_publications,
-        ieee:structural_engineering,
-        ieee:suspensions_%28mechanical_systems%29,
-        ieee:systems_support,
-        ieee:thermal_engineering,
-        ieee:torque_converters,
-        ieee:translational_research,
-        ieee:tutorials,
-        ieee:video_reviews .
 
 ieee:geoscience a <https://ieee-taxonomy.org/schema#Topic> ;
     rdfs:label "geoscience" ;

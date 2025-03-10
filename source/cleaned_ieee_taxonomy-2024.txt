@@ -2937,8 +2937,7 @@ IEEE organization
 ..........IEEE United States activities
 .....IEEE entities
 ..........IEEE Boards
-..........IEEE Center for the History of
-Electrical Engineering
+..........IEEE Center for the History of Electrical Engineering
 ..........IEEE Chapters
 ..........IEEE Committees
 ..........IEEE Communities
